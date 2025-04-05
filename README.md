@@ -37,7 +37,7 @@ npm start
 - Guarda el historial en la sesión actual
 
 ## 📬 Contacto
-[LinkedIn](https://linkedin.com/in/mateo-giuffra-023682289/) • matteogiuffrah40@gmail.com
+[LinkedIn](https://linkedin.com/in/mateo-giuffra-023682289/) • [Gmail](matteogiuffrah40@gmail.com)
 
 > Cualquier consulta, duda o simplemente queres contactarme, podes usar alguno de los dos medios de arriba!
 
