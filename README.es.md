@@ -1,3 +1,6 @@
+### Language
+![English](./README.md) 
+
 # 🤖 Chatbot con IA - React + Flask + OpenAI
 Este es un proyecto de chatbot personalizado que usa **React** en el frontend, **Flask** en el backend y la **API de OpenAI** para generar respuestas inteligentes. Ideal para mostrar cómo integrar una IA tipo ChatGPT en una app real.
 
