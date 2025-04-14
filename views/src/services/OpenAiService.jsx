@@ -1,9 +1,9 @@
 import axios from "axios";
 import { URI } from "./constants";
 
-async function call(prompt) {
+function call(prompt) {
   try {
-    const response = await axios.post(`${URI}/sendMessage`, {
+    const response = axios.post(`${URI}/sendMessage`, {
       prompt: prompt,
     });
     return response.data.answerIA;

@@ -1,44 +1,45 @@
 # 🤖 Chatbot con IA - React + Flask + OpenAI
-Este es un proyecto de chatbot personalizado que usa **React** en el frontend, **Flask** en el backend y la **API de OpenAI** para generar respuestas inteligentes. Ideal para mostrar cómo integrar una IA tipo ChatGPT en una app real.
+This is a proyect of personalized chatbot that uses **React** in frontend, **Flask** in backend and the **OpenAI API** to generate inteligents answers. Ideal to show how to integrate a IA like ChatGPT in a real app. 
 
+<!-- 
 ## 🚀 Preview
-📸 *Acá podés poner un GIF o imagen del chatbot funcionando*  
 → Ejemplo:  
-![Chatbot preview](https://tu-link-a-la-imagen.gif)
+![Chatbot preview](https://tu-link-a-la-imagen.gif) 
+-->
 
-## 🛠️ Tecnologías
-- **React** – Frontend interactivo
-- **Flask** – API backend simple
-- **OpenAI API** – Motor de IA
-- **Axios** – Conexión HTTP
-- **CORS** – Para permitir conexión entre frontend y backend
+## 🛠️ Technologies
+- **React** – Interactive Frontend 
+- **Flask** – simple backend API 
+- **OpenAI API** – IA engine
+- **Axios** – HTTP conection
+- **CORS** – in order to allow a frontend-backend-conection
 
-## ▶️ Cómo correrlo localmente
-1. Clonar el repo:
+## ▶️ How to run in local mode
+1. Clone repository:
 ```bash
 git clone https://github.com/tu-usuario/tu-repo.git
 ```
-2. Instalar y correr backend:
+2. Install and run backend:
 ```bash
 cd server
 pip install -r requirements.txt
 python app.py
 ```
-3. Instalar y correr frontend:
+3. Install and run frontend:
 ```bash
 cd client
 npm install
 npm start
 ```
-## 💬 ¿Qué hace?
-- Envía mensajes desde React  
-- Flask los recibe y los manda a OpenAI  
-- Muestra la respuesta de la IA en pantalla  
-- Guarda el historial en la sesión actual
+## 💬 ¿What does it do?
+- Send messages from React  
+- Flask receive it and send it to OpenAI  
+- Show on screen IA response 
+- Save chat in actual session
 
-## 📬 Contacto
+## 📬 Contact
 [LinkedIn](https://linkedin.com/in/mateo-giuffra-023682289/) • [Gmail](matteogiuffrah40@gmail.com)
 
-> Cualquier consulta, duda o simplemente queres contactarme, podes usar alguno de los dos medios de arriba!
+> For any questions, doubts, or if you'd just like to reach out, feel free to use either of the contacts above!
 
 

@@ -17,7 +17,6 @@
 
 .text-bubble-myText, .text-bubble-otherText{
     z-index: 99;
-    
     padding: 12px 24px;
     border-radius: 32px;
 }

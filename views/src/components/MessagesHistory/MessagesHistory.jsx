@@ -12,7 +12,6 @@ const TextBubble = ({myText, otherText}) =>{
             <p className='text-bubble-otherText'>
                 {otherText}
             </p>
-         
         </section>
     )
 }

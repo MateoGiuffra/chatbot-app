@@ -10,18 +10,18 @@ const Home = () => {
   const sendMessage = (e) => {
     try{
       e.preventDefault()
-    const inputValue = e.target.elements.text.value;
-    if (inputValue === ""){
-      return
-    }
-    const answer = call(inputValue);
-    console.log(answer)
-    const newMessage = {
-      myMessage: inputValue,
-      IAMessage: answer,
-    };
-    setNewMessages(prev => [...prev, newMessage]);
-    console.log(messages)
+      const inputValue = e.target.elements.text.value;
+      if (inputValue === ""){
+        return
+      }
+      const answer = call(inputValue);
+      console.log(answer)
+      const newMessage = {
+        myMessage: inputValue,
+        IAMessage: answer,
+      };
+      setNewMessages(prev => [...prev, newMessage]);
+      console.log(messages)
     }catch(err){
       console.log(err)
     }finally{
