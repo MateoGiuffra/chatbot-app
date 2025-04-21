@@ -1,19 +1,36 @@
 .home-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 140px;
+    grid-template-areas: 
+    "chat" 
+    "input";
+
+    max-width: 1200px;
+    gap: 16px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.chat-container{
+    grid-area: chat;
+}
+
+.home-container-welcome{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    max-width: 1200px;
-    height: 100vh;
-    justify-content: flex-end;
-    gap: 16px;
 }
 
 #input-chat{
-    margin-bottom: 32px;
+    grid-area: input;
+    z-index: 1;
+    min-height: 111px;
+    height: 111px;
 }
 
 h1{
     height: 50%;
+    font-size: xx-large;
 }

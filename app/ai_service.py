@@ -16,6 +16,7 @@ def call_open_ai(key, prompt):
         }
         response = requests.post(url, json=data, headers=headers)
         json_api_response = response.json()
-        print(json_api_response)
+        return json_api_response['choices'][0]['message']['content']
     except Exception as e: 
         print(e)
+

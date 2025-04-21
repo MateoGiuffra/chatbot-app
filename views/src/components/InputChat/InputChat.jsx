@@ -12,7 +12,7 @@ const InputChat = ({handleSendMessage, stayBelow}) => {
   }
 
   return (
-    <article className="input-chat-container">
+    <section className="input-chat-container">
       <form onSubmit={handleSendMessage}>
         <textarea 
           type="text" 
@@ -25,7 +25,13 @@ const InputChat = ({handleSendMessage, stayBelow}) => {
           <IoSend />
         </button>
       </form>
-    </article>
+      <article className='info-container'>
+        <a href="https://github.com/MateoGiuffra" className='github-link' target="_blank" rel="noopener noreferrer">
+          <img src="src/assets/github-icon.svg" alt="github" className='github-icon'/>
+          <p>Ver más proyectos</p>
+        </a>
+      </article>
+    </section>
   );
 };
 

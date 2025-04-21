@@ -19,8 +19,7 @@ def send_message():
         if not prompt:
             return jsonify({"error": "'prompt' field doesn't exists"}), 400
 
-        # respuesta = call_open_ai(OPEN_AI_KEY, prompt)
-        respuesta = "que onda gato"
+        respuesta = call_open_ai(OPEN_AI_KEY, prompt)
         return jsonify({"answerIA": respuesta}), 201
 
     except Exception as e:
