@@ -5,7 +5,7 @@
     grid-template-areas: 
     "chat" 
     "input";
-
+    
     max-width: 1200px;
     gap: 16px;
     position: relative;

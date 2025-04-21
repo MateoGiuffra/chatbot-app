@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: #ffffffde;
-  background-color: #242424;
+  background: #26405e;
+  background: linear-gradient(90deg, rgb(36, 61, 104) 10%, rgba(38, 46, 61, 1) 85%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,4 +15,9 @@
   font-size: 16px;
   font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
   line-height: 28px
+}
+
+
+html {
+  overflow-y: scroll;
 }
